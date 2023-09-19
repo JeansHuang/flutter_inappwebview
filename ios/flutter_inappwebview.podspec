@@ -25,7 +25,7 @@ A new Flutter plugin.
   s.dependency 'OrderedSet', '~>5.0'
   
   s.default_subspec = 'Core'
-  
+  s.ios.deployment_target = '8.0'
   s.subspec 'Core' do |core|
     core.platform = :ios, '8.0'
   end
